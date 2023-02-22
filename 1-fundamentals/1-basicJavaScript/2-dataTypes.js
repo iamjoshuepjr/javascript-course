@@ -3,21 +3,12 @@
  *  author: Joshuép Jr.
  */
 
-// ====================== STRINGS =======================          
+// ======= STRINGS ==========
 // typeof + variable -> display only variable's data type           
 
-var $name = "Joshuép Jr";
-console.log("Name: " + $name);
-console.log(typeof $name);
-
-$name = "Emma";
-console.log("Name: " + $name);
-console.log(typeof $name);
-
-$name = "Victoria";
-console.log("Name: " + $name);
-console.log(typeof $name);
-
+var nickame = "Joshuép Jr";
+console.log("Name: " + nickame);
+console.log("Type of data: " + typeof nickame);
 
 // ========= NUMBERS ========= 
 var salary = 90000;
@@ -27,7 +18,7 @@ console.log("Type of data: " + typeof salary);
 //  ========= OBJECTS ========= 
 var contact = {
     name : "Joshuép",
-    lastname : "Pimienta Jr",
+    lastname : "Pimienta Jr.",
     ocupation : "Student",
     phone : 3017413269,
     email: 'address@something.com',
@@ -49,7 +40,7 @@ console.log("Last Name: " +contact['lastname']);
 
 // ========= Displaying the whole object  ========= 
 console.log(contact);
-console.log(typeof contact);
+console.log("Type of data: " + typeof contact);
 
 // ========= Booleans ========= 
 var decition = true;

@@ -1,3 +1,9 @@
+/**
+ *  JavaScript Assignment Operators
+ *  author: Joshuép Jr.
+ */
+
+
 // Compound Assignment Operators assign values to JavaScript variables
 let value = 23182429;
 console.log("Value: "+ value);

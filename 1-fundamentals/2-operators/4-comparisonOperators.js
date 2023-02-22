@@ -1,4 +1,10 @@
 /**
+ *  JavaScript Comparison Operators
+ *  author: Joshuép Jr.
+ */
+
+
+/**
  * A comparison operator returns a boolean value
  * indicanding that the conparison is true or false
 */

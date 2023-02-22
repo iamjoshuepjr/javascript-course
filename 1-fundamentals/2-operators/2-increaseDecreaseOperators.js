@@ -1,3 +1,9 @@
+/**
+ *  JavaScript Increase - Decrease Operators
+ *  author: Joshuép Jr.
+ */
+
+
 // =========== INCREASE - DECREASE OPERATORS =========== 
 let a = 23, b = 18;
 let result = a + b;

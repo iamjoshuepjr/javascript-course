@@ -1,3 +1,9 @@
+/**
+ *  JavaScript Variables
+ *  author: Joshuép Jr.
+ */
+
+
 // ========= form 1 - it became obsolete  ========= 
 var var1 = 24;
 

@@ -1,3 +1,9 @@
+/**
+ *  JavaScript String Concatenation
+ *  author: Joshuép Jr.
+ */
+
+
 // ================ String Concatenation ================ 
 // We use the (+) sign to string concatenation, when the value are strings
 

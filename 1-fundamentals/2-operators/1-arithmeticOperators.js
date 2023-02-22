@@ -1,3 +1,8 @@
+/**
+ *  JavaScript Aritmetic Operators
+ *  author: Joshuép Jr.
+ */
+
 // =========== ARITHMETICAL OPERATORS =========== 
 let a = 24, b = 19;
 
