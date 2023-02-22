@@ -3,24 +3,38 @@
  *  author: Joshuép Jr.
  */
 
+/**
+ * JavaScript has the primitive data types: (null, undefined, boolean, number, string, symbol, biginit) and complex data types: (objects)
+ */
+
 // ======= STRINGS ==========
 // typeof + variable -> display only variable's data type           
 
-var nickame = "Joshuép Jr";
+var nickame = "Joshuép Jr.";
 console.log("Name: " + nickame);
 console.log("Type of data: " + typeof nickame);
 
+// using backslash to escape
+var message = 'I\'m also a valid string';
+console.log("Message: "+ message);
+
 // ========= NUMBERS ========= 
-var salary = 90000;
-console.log("Salary: $" + salary);
-console.log("Type of data: " + typeof salary);
+// int
+var age = 24;
+console.log("Age: " +age+ " years old");
+console.log("Type of data: " + typeof age);
+
+// float
+var temperature = 8.00;
+console.log("Temperature: " +temperature+ " C°");
+console.log("Type of data: " +typeof temperature);
 
 //  ========= OBJECTS ========= 
 var contact = {
-    name : "Joshuép",
-    lastname : "Pimienta Jr.",
+    name : "Josué",
+    lastname : "Pimienta",
     ocupation : "Student",
-    phone : 3017413269,
+    phone : 3017514279,
     email: 'address@something.com',
     address: {
         building: '5000',
@@ -57,6 +71,11 @@ console.log(typeof myFunction);
 var symbol = Symbol("This is my symbol");
 console.log(symbol);
 console.log(typeof symbol)
+
+// ========= Biginit ========= 
+let pageView = 9007199254740991n;
+console.log("Page View: "+pageView);
+console.log(typeof(pageView));
 
 // ========= class -> it's a function too  ========= 
 class Person {
