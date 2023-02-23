@@ -3,7 +3,6 @@
  *  author: Joshuép Jr.
  */
 
-
 // ========= form 1 - it became obsolete  ========= 
 var var1 = 24;
 
@@ -14,7 +13,7 @@ let var2 = 19;
 name = "Joshuép";
 console.log(name);
 
-// ========= form 4 - just for constants ========= 
+// ========= forms 4 - just for constants ========= 
 const lastName = "Pimienta";
 console.log(lastName);
 
