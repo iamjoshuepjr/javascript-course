@@ -3,10 +3,11 @@
  *  author: Joshuép Jr.
  */
 
-/* ================== ASSIGNMENT OPERATORS ========================= 
- Assignmet operators are used to assign values to a variable
-   Syntax: 
-   let variable = value;
+/* ============================================================= 
+             ASSIGNMENT OPERATORS 
+    Assignmet operators are used to assign values to a variable
+    Syntax: 
+    let variable = value;
 */
 
 // Compound Assignment Operators assign values to JavaScript variables
