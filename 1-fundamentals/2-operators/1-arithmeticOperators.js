@@ -4,29 +4,33 @@
  */
 
 // ================= ARITHMETICAL OPERATORS ======================== 
-// Arithmetic operators are used to perform arithmetic calculations
+/* Arithmetic operators are used to perform arithmetic calculations 
+   Arithmetical operators accepts numerical values as operamds and 
+   returns a single numeical value. (Literals or variables)
+*/
+
 let a = 24, b = 19;
 
-// ========== ADD -> + SIGN ========== 
+// ========== Addition Operator (+) ============ 
 let c = a + b;
 console.log("Addition: " + c);
 
-// ========== SUBS -> - SIGN ========== 
+// ======== Subtraction Operator (-) ===========
 c = a - b;
 console.log("Substraction: " + c);
 
-// ========== MUL -> * SIGN ========== 
+// ======== Multiplication Operator (*) ========
 c = a * b;
 console.log("Multiplication: " + c);
 
-// ========== DIV -> / SIGN ========== 
+// ============ Divide Operator (/) ============ 
 c = a / b;
 console.log("Division: " + c);
 
-// ========== MOD -> % SIGN ========== 
+// ========== Remainder Operator (%) =========== 
 c = a % b;
-console.log("Modulus: " + c);
+console.log("Remainder: " + c);
 
-// ========== POW -> ** SIGN ========== 
+// ====== Exponentiation Operator (**)  ======== 
 c = a ** c;
 console.log("Power: " + c)
