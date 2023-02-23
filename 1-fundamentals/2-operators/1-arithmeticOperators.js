@@ -4,8 +4,6 @@
  */
 
 /**
- * ===================================================================
- *                       ARITHMETIC OPERATORS 
  * Arithmetic operators are used to perform arithmetic calculations 
  * Arithmetical operators accepts numerical values as operamds and 
  * returns a single numeical value. (Literals or variables)
