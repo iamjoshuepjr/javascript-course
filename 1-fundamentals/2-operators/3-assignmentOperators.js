@@ -3,8 +3,8 @@
  *  author: Joshuép Jr.
  */
 
-// ================== ASSIGNMENT OPERATORS ========================= 
-/* Assignmet operators are used to assign values to a variable
+/* ================== ASSIGNMENT OPERATORS ========================= 
+ Assignmet operators are used to assign values to a variable
    Syntax: 
    let variable = value;
 */
