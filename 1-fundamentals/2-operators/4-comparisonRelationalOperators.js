@@ -1,5 +1,5 @@
 /**
- *  JavaScript Comparison Operators
+ *  JavaScript Comparison - Relational Operators
  *  author: Joshuép Jr.
  */
 
