@@ -3,6 +3,11 @@
  *  author: Joshuép Jr.
  */
 
+// ================== ASSIGNMENT OPERATORS ========================= 
+/* Assignmet operators are used to assign values to a variable
+   Syntax: 
+   let variable = value;
+*/
 
 // Compound Assignment Operators assign values to JavaScript variables
 let value = 23182429;
@@ -31,3 +36,7 @@ console.log("Remainder assigment: "+ value);
 // Exponentiation assignment
 value **= 3 // value = value ** 3
 console.log("Exponentiation assignment: "+ value);
+
+// Chaining JavaScript assignment operators
+let a = 10, b = 20, c = 30; // individual values
+a = b = c; // all variables are 30
