@@ -3,7 +3,8 @@
  *  author: Joshuép Jr.
  */
 
-// =========== ARITHMETICAL OPERATORS =========== 
+// ================= ARITHMETICAL OPERATORS ======================== 
+// Arithmetic operators are used to perform arithmetic calculations
 let a = 24, b = 19;
 
 // ========== ADD -> + SIGN ========== 

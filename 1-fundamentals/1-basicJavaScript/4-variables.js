@@ -23,10 +23,10 @@ a = 18, b = 23;
 let c = a + b;
 console.log(c);
 
-// ========= Case sensitive ========= 
+// ============ Case sensitive ========= 
 // Variableas fullname and FullName are different
 
-let fullname = "Adriana Derza";
+let fullname = "Victoria Smith";
 let FullName = "Josué Pimienta";
 console.log(fullname);
 console.log(FullName);

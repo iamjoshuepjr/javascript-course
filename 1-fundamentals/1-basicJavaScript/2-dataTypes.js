@@ -57,9 +57,9 @@ console.log(contact);
 console.log("Type of data: " + typeof contact);
 
 // ========= Booleans ========= 
-var decition = true;
-console.log(decition);
-console.log(typeof decition);
+var decision = true;
+console.log(decision);
+console.log(typeof decision);
 
 // ========= Function ========= 
 function myFunction(){}
@@ -80,7 +80,7 @@ console.log(typeof(pageView));
 // ========= class -> it's a function too  ========= 
 class Person {
     constructor(name, lastname){
-        this.name = "Joshuép Jr.";
+        this.name = "Josué.";
         this.lastname = "Pimienta";
     }
 }
