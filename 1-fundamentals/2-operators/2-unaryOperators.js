@@ -17,7 +17,7 @@
 
 let x = 10;
 let y = +x;
-console.log(y);
+console.log(y); // 10
 
 /* When you apply the unary plus operator to a non-numeric value, it performs a number conversion 
    using the Number() function with the the followning rules: 
@@ -32,7 +32,7 @@ console.log(y);
 
 // The following uses the unary plus operator (+) to convert the string '10' to the number 10
 let string = '10';
-console.log(+string);
+console.log(+string); // 10
 
 // The following example uses the unary plus operator (+) converts a boolean value into a number
 let True =  true, False = false;
@@ -47,7 +47,7 @@ let person = {
     }
 };
 
-console.log(+person);
+console.log(+person); // 24
 
 /**
  * Here, we apply the unary operator (+) on the person object that has the toString() method,
@@ -66,7 +66,7 @@ let car = {
     }
 };
 
-console.log(+car);
+console.log(+car); // 23000
 
 /**
  * In this example, the car object has the valueOf() method, the JavaScript engine calls it 
@@ -81,8 +81,9 @@ console.log(+car);
  * If you apply the minus operator to a number, it neagtes the number.
  */
 
+// x = 10
 y = -x;
-console.log(y);
+console.log(y); // -10
 
 
 /**
@@ -95,25 +96,62 @@ console.log(y);
  * before and after the varibale to which they apply.
  */
 
-
-
+/**
+ * ===================
+ *  Prefix increment operator
+ */
+ 
 let age = 24;
-++age;
-console.log("Age: "+age);
+++age; // age = age + 1
+console.log("Age: "+age); // Age: 25
 
-// pre-increase (first increase operator, before variable)
-// this operator
-let pre = ++a;
-console.log("Increase with variables\nValue: " + a + "\nPre-Increase: " + pre);
+// Prefix drecrement operator
+let weight = 70;
+--weight; // weight = weight - 1
+console.log("Weight: "+weight+" KG"); // Weight: 69 KG
 
-// post-increase (first variable before, increase operator)
-let post = b++;
-console.log("Increase with variables\nValue: " + b + "\nPost-Increase: " + post);
+/* 
+   When you apply the prefix increment or decrement, 
+   JavaScript changes the variable before evaluating the statement
+*/
 
-// Pre-decrement 
-pre = --a;
-console.log("Decrease with variables\nValue: " + b + "\nPre-decrease: " + post);
+weight = 90;
+weight = ++weight + 5;
+console.log("Weight: "+weight+" KG"); // Weight: 96 KG
 
-// Post-decrement 
-post = b--;
-console.log("Decrease with variables\nValue: " + b + "\nPost-decrease: " + post);
+/**
+ * First: Increase the weight on the right-hand side so ++weight is 91
+ * Second: Add five to the ++weight (91) that returns 96
+ * Third: Assign the result to the weight on the left-hand side.
+ */
+
+// Likewise, the following example uses a prefix decrement operator: 
+
+weight = 100;
+weight = --weight + 5;
+console.log("Weight: "+weight+" KG"); // Weight: 104 KG
+
+/**
+ * First: Subtract one from the weight on the right-hand side so --weight is 99
+ * Second: Add five to the --weight (99) that returns 104
+ * Third: Assign the result to the weight on the left-hand side.
+ */
+
+/**
+ * ===========================
+ *  Postfix increment operator
+ */
+
+// The postfix increment or decrement operator change the value after the statement is evalueted. 
+
+let salary = 9000;
+let newSalary = salary++ + 500;
+console.log("New Salary: $" + newSalary); // New Salary: $9500
+console.log("New Var Salary value: " + salary); // New Var Salary value: $9001
+
+/**
+ * How it works?
+ * First: Add Five Hundred (500) to weigth (9000) and assign the result to the newWeight (9500)
+ * Second: Add one to the weight (9000 + 1) variable after the second statement completes, the weight becomes 9001
+ * Third: Output both newWeight and weight to the console
+ */
