@@ -9,7 +9,12 @@
  * indicanding that the conparison is true or false
 */
  
-// ============ Equal (==) Operator ============ 
+/** 
+ * ==========================================
+ *            Equal Operator (==)
+ *  Returns true if the operands are equal
+ */ 
+
 // Returns true if the operands are equal
  let age = 23;
  let number = 23;
