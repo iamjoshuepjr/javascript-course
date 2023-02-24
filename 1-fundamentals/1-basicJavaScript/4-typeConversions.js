@@ -24,6 +24,22 @@ console.log(result, typeof result);
 result = Number(false);
 console.log(result, typeof result);
 
+// Empty strings and null values return 0
+result = Number(null);
+console.log(result, typeof result);
+
+result = Number(' ');
+console.log(result, typeof result);
+
+// if string is an invalid number, the result will be NaN
+result = Number('Hello');
+console.log(result, typeof result);
+
+result = Number(undefined);
+console.log(result, typeof result);
+
+result = Number(NaN);
+console.log(result, typeof result);
 /**
  * We can also generate numbers from strings using parseInt(), parseFloat(),
  * unary operator (+) and Math.floor().
