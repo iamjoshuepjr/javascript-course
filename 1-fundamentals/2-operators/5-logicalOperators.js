@@ -59,7 +59,7 @@ console.log("Eligible ("+eligible+") AND(&&) Required("+required+"): Result: ("+
 
 /** 
  * ==============================================================
- *            The logical OR operator (&&)
+ *            The logical OR operator (||)
  *  The logical OR (||) (logical disjunction) operator for 
  *  a set of operands is true if and only if one of 
  *  its operands is true. It's tipically used with 
@@ -69,3 +69,27 @@ console.log("Eligible ("+eligible+") AND(&&) Required("+required+"): Result: ("+
 eligible = false;
 result = eligible || required;
 console.log("Eligible ("+eligible+") OR(||) Required("+required+"): Result: ("+result+")"); // true
+
+/** 
+ * ==================================================================
+ *       The logical Nullish Coalescing operator (??)
+ *  Returns the second value if the first value is null or undefined.
+ *  Technically the nullish coalescing operator is equivalent 
+ *  to the following block:
+ *  
+ *  const resul = value1;
+ *  if (resul === null || resul === undefined) {
+ *        resul = value2;
+ *  }
+ */ 
+
+const nickname = null ?? 'Joshuép Jr.';
+console.log(nickname);
+
+const age = undefined ?? 24;
+console.log(age);
+
+ 
+ 
+  
+ 
