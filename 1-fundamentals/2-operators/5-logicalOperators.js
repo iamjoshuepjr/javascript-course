@@ -88,8 +88,3 @@ console.log(nickname);
 
 const age = undefined ?? 24;
 console.log(age);
-
- 
- 
-  
- 
