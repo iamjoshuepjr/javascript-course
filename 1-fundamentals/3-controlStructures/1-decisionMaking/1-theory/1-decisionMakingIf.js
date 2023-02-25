@@ -38,3 +38,4 @@ if(state = 'CA'){
         console.log('You can drive!');
     }
 }
+console.log('\nEnd of the if statement');
