@@ -1,5 +1,5 @@
 /**
- *  JavaScript Data Structures - Arrays
+ *  JavaScript - Arrays One-Dimensional
  *  author: Joshuép Jr.
  */
 
