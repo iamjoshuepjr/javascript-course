@@ -77,7 +77,7 @@
   cities[4] = 'Santa Clara';
   console.log(cities);
 
-/**
- * Getting Array size
- */
+  /**
+   * Getting Array size
+   */
  console.log(cities.length); // 5
