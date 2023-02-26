@@ -13,7 +13,7 @@
  * To add an new element to the beginning, you use the .unshift() method
  */
 
- let seas = [
+ const seas = [
     'Black Sea', 
     'Carinbbean Sea', 
     'North Sea', 
@@ -65,13 +65,13 @@
  * The concat method creates a new array by merging existing arrays.
  * It does not change the existing arrays. It always returns a new array.
  */
- let backEnd = ['Python', 'DDBB', 'C#', 'Java', 'Nodejs'];
- let frontEnd = ['Html & Css', 'JavaScript', 'React'];
+ const backEnd = ['Python', 'DDBB', 'C#', 'Java', 'Nodejs'];
+ const frontEnd = ['Html & Css', 'JavaScript', 'React'];
 
  console.log('Back End Array: ', backEnd);
  console.log('Front End Array: ', frontEnd);
  
- let fullStack = backEnd.concat(frontEnd)
+ const fullStack = backEnd.concat(frontEnd)
  console.log('Fullstack Array: ', fullStack);
 
  /**

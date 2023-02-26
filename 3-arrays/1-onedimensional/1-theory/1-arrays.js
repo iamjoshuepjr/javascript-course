@@ -63,7 +63,7 @@
   * 
   * arrayName[index]
   */
-  let cities = ['Los Angeles', 'San Diego', 'San Jose', 'San Fransisco', 'Pittsburg'];
+  const cities = ['Los Angeles', 'San Diego', 'San Jose', 'San Fransisco', 'Pittsburg'];
   
   console.log(cities[0]); // Los Angeles
   console.log(cities[1]); // San Diego
