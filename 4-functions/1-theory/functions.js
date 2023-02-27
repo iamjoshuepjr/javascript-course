@@ -51,6 +51,10 @@
 
  add(24, 16);
 
+ function say(message){ console.log(message); }
+ let output = say('Hello!');
+ console.log('Result: ', output);
+
  /**
   *                   FUNCTION RETURN
   * The return statement can be used to return the value to a function call.
@@ -72,3 +76,15 @@
 
  // displaying the result
  console.log('Result: ' + result);
+
+ /**
+  *              FUNCTION EXPRESSION / ANOYMOUS FUNCTIONS
+  * In JavaScript, functions can also be defibed as expressions.
+  */
+ 
+ let x = function (num) { return num * num};
+ console.log("Result:" + x(4));
+
+ // can be used as variable value for other variables
+ let y = x(x);
+ console.log(y);
