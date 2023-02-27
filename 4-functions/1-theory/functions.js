@@ -71,7 +71,7 @@
  let number1 = parseInt(prompt('Enter the first value here: '));
  let number2 = parseInt(prompt('Enter the second value here: '));
 
- // caling function
+ // calling function
  let result = addNumbers(number1, number2);
 
  // displaying the result
