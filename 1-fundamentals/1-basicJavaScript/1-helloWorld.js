@@ -14,9 +14,10 @@
  * where “hello, world” was used as a minimal example—later becoming the industry standard.
  * ══════════════════════════════════════════════════════════════════════════════════════════════════
  */
+
 console.log("\n");
 console.log("\t╔════════════════════════════════╗");
-console.log("\t║  💫 FIRST JAVASCRIPT OUTPUT    ║");
+console.log("\t║  MY FIRST JAVASCRIPT OUTPUT    ║");
 console.log("\t╚════════════════════════════════╝");
 
 console.log("\n");
