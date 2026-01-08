@@ -35,6 +35,6 @@ console.log("\t│     ╚█████╔╝╚██████╔╝██
 console.log("\t│      ╚════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝  │");
 console.log("\t│                                        │");
 console.log("\t│   Welcome to Learn JavaScript!         │");
-console.log("\t│   Powered By: Joshuép Jr.              │");
+console.log("\t│   Powered By: The Joshuép Jr.          │");
 console.log("\t│                                        │");
 console.log("\t╰────────────────────────────────────────╯");
